@@ -1,0 +1,32 @@
+.inlinepfp{
+    width: 48px;
+    height: 48px;
+    border-radius: 48px;
+}
+
+.indivpost{
+    background-color: lightblue;
+    padding: 6px;
+    border-radius: 15px;
+}
+
+.posts{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.reaction{
+    background: none;
+    border: none;
+}
+
+.reaction:hover {
+  color: blue;
+}
+
+.sidebar{
+    color: white;
+    background-color: blue;
+}
