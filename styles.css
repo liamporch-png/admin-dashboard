@@ -12,7 +12,7 @@
 
 .posts{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 10px;
 }
@@ -29,4 +29,82 @@
 .sidebar{
     color: white;
     background-color: blue;
+    display: flex;
+    flex-direction: column;
+    padding-right: 5px;
+    height: 100vh;
+    align-items: baseline;
+}
+
+.sidebar li{
+    list-style-type: none;
+}
+
+body{
+    display: flex;
+    margin: 0;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    background: orange;
+}
+.quickbuttons button{
+    background: blue;
+    color: white;
+    width: 80px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: large;
+}
+.headerprofile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.quickbuttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.hello{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: px;
+}
+
+.searchbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    width:400px
+}
+.main{
+    background:url(assets/doctile2.png);
+    height: 100vh;
+}
+#posttitle{
+    background-color: lightgray;
+    width: 500px;
+}
+.announcements{
+    background-color: lightblue;
+    padding: 6px;
+    border-radius: 15px;
 }
