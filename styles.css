@@ -61,7 +61,7 @@ body{
     grid-template-rows: 1fr 1fr;
     grid-gap: 10px;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     background: orange;
 }
 .quickbuttons button{
@@ -122,4 +122,8 @@ input{
 .me{
     display: flex;
     align-items: center;
+}
+
+.hp2{
+    display: flex;
 }
